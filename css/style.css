@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    margin: 0px;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.gridBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+/* .column{
+    flex:1;
+}*/
+
+.row:hover{
+    background-color: pink;
+}
